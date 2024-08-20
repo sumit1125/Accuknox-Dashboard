@@ -1,0 +1,143 @@
+{
+  "cnapp": [
+    {
+      "id": 1,
+      "type": "pie",
+      "name": "CNAPP Widget 1",
+      "data": {
+        "labels": ["A", "B", "C"],
+        "values": [10, 20, 30]
+      }
+    },
+    {
+      "id": 2,
+      "type": "pie",
+      "name": "CNAPP Widget 2",
+      "data": {
+        "labels": ["D", "E", "F", "R"],
+        "values": [15, 25, 35, 89]
+      }
+    },
+    {
+      "id": 3,
+      "type": "pie",
+      "name": "CNAPP Widget 3",
+      "data": {
+        "labels": ["G", "H", "I", "H" ,"V"],
+        "values": [20, 30, 40, 89, 78]
+      }
+    },
+    {
+      "id": 4,
+      "type": "pie",
+      "name": "CNAPP Widget 4",
+      "data": {
+        "labels": ["J", "K", "L", "Z", "J", "X"],
+        "values": [25, 35, 45, 89, 5 ,7, 6]
+      }
+    },
+    {
+      "id": 5,
+      "type": "pie",
+      "name": "CNAPP Widget 5",
+      "data": {
+        "labels": ["J", "K", "L", "Z", "J"],
+        "values": [25, 35, 45, 89, 5 , 6]
+      }
+    }
+  ],
+  "cspm": [
+    {
+      "id": 1,
+      "type": "bar",
+      "name": "CSPM Widget 1",
+      "data": {
+        "labels": ["X", "Y", "Z"],
+        "values": [5, 15, 25]
+      }
+    },
+    {
+      "id": 2,
+      "type": "bar",
+      "name": "CSPM Widget 2",
+      "data": {
+        "labels": ["D", "E", "F", "R"],
+        "values": [15, 25, 35, 89]
+      }
+    },
+    {
+      "id": 3,
+      "type": "bar",
+      "name": "CSPM Widget 3",
+      "data": {
+        "labels": ["J", "K", "L", "Z", "J"],
+        "values": [25, 35, 45, 89, 5 , 6]
+      }
+    },
+    {
+      "id": 4,
+      "type": "bar",
+      "name": "CSPM Widget 4",
+      "data": {
+        "labels": ["G", "H", "I"],
+        "values": [20, 30, 40]
+      }
+    },
+    {
+      "id": 5,
+      "type": "bar",
+      "name": "CSPM Widget 5",
+      "data": {
+        "labels": ["J", "K", "L"],
+        "values": [25, 35, 45]
+      }
+    }
+  ],
+  "imageSecurity": [
+    {
+      "id": 1,
+      "type": "line",
+      "name": "Image Security Widget 1",
+      "data": {
+        "labels": ["Jan", "Feb", "Mar","Jul"],
+        "values": [10, 15, 20,9]
+      }
+    },
+    {
+      "id": 2,
+      "type": "line",
+      "name": "Image Security Widget 2",
+      "data": {
+        "labels": ["Apr", "May", "Jun"],
+        "values": [25, 5, 4]
+      }
+    },
+    {
+      "id": 3,
+      "type": "line",
+      "name": "Image Security Widget 3",
+      "data": {
+        "labels": ["Jul", "Aug", "Sep"],
+        "values": [3, 35, 6]
+      }
+    },
+    {
+      "id": 4,
+      "type": "line",
+      "name": "Image Security Widget 4",
+      "data": {
+        "labels": ["Oct", "Nov", "Dec"],
+        "values": [4, 4.5, 89]
+      }
+    },
+    {
+      "id": 5,
+      "type": "line",
+      "name": "Image Security Widget 5",
+      "data": {
+        "labels": ["Year1", "Year2", "Year3"],
+        "values": [50, 55, 60]
+      }
+    }
+  ]
+}
