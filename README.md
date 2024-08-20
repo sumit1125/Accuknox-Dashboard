@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Dashboard V2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Dashboard V2 is a dynamic and customizable React-based dashboard application that allows users to add, remove, update, and search widgets across different categories (CNAPP, CSPM, Image Security). Each category displays widgets using various chart types such as Pie Charts, Bar Graphs, and Line Charts. The application leverages React's Context API and Redux for state management.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+Installation
+To get started with the Dashboard V2 application, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+git clone https://github.com/sumit1125/dashboard-v2.git
+Navigate to the project directory:
 
-### `npm test`
+bash
+Install dependencies:
+npm Install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start the development server:
 
-### `npm run build`
+bash
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will run on
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ http://localhost:3000.
 
-### `npm run eject`
+- **Dynamic Widget Management**: Add, update, and remove widgets dynamically.
+- **Search Functionality**: Search through widgets in real-time across all categories.
+- **Categorized Dashboard**: Widgets are categorized into CNAPP, CSPM, and Image Security sections, each displaying data with different chart types.
+- **Modal for Adding Widgets**: A modal is provided for adding widgets to the dashboard.
+- **Context API & Redux**: Used for managing global state and widget data.
+- **Responsive Design**: The layout is fully responsive and adapts to different screen sizes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```plaintext
+/src
+  /components
+    - Header.js            # Header component with search bar and modal control
+    - SearchBar.js         # Search bar component used in Header
+    - AddWidget.js         # Modal component for adding widgets
+  /containers
+    - CNAPPDashboard.js    # CNAPP Dashboard section with widgets and Pie Charts
+    - CSPMDashboard.js     # CSPM Dashboard section with widgets and Bar Graphs
+    - ImageSecurity.js     # Image Security section with widgets and Line Charts
+  /context
+    - WidgetContext.js     # Context API for managing widget state globally
+  /redux
+    - store.js
+    - widgetSlice.js       # Redux slice for widget actions and reducers
+  - App.js                 # Main application component
+  - index.js               # Entry point of the application
+  - dashboardData.json     # JSON data file for initial widget data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To deploy this project run
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm install 
+  for dependency
+```
 
-### Code Splitting
+```bash
+  to run
+  cd to the project folder
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
